@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+}.main
+{
+    background-color: rgb(250, 246, 246);
+    width:  100%;
+    height: 28cm;
+
+}
+.videosection1
+{
+    width: 80rem;
+    height: 8cm;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+.video-container
+{
+    margin-top: 80px;
+   float: left;
+    margin-left: 36px;
+    height: 100px;
+}
+.thumbnail-image
+{
+    width: 305px;
+}
+.video-bottom-section
+{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 1rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+.channel-icon
+{
+    margin-right: 1rem;
+    width: 35px;
+    border-radius: 50%;
+}
+.video-details
+{
+
+    display: flex;
+    flex-direction: column;
+}
+.video-title
+{
+    font-size:17px;
+    font-weight: bold;
+    margin-bottom:5px;
+    text-decoration: none;
+    color: black;
+}
+.video-channel-name
+{
+    margin-bottom: 2px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.712);
+    transition: color 150ms;
+}
+.video-channel-name:hover
+{
+    color: black;
+}
+.metadata
+{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.849);
+}
+
+.header
+{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 3.6rem;
+    position: fixed;
+    padding-left: 68px;
+}
+.youtubelogo
+{
+    display: inline;
+    width: 100px;
+}
+.inputbox
+{
+    border: solid 1px rgba(0, 0, 0, 0.39);
+    background-color: rgba(255, 255, 255, 0.932);
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    padding-left: 10px;
+    margin-top: -52px;
+    margin-left: 345px;
+    width: 35rem;
+    height: 34px;
+}
+.searchbox
+{
+    background-color: rgba(255, 255, 255, 0.815);
+    border: 1px solid rgba(0, 0, 0, 0.411);
+    width: 58px;
+    height: 38px;
+    float: left;
+    margin-top: -38px;
+    margin-left: 917px;
+
+}
+.searchicon
+{
+    width: 32px;
+}
+.micbtn
+{
+    background-color: rgba(255, 255, 255, 0.897);
+    border: none;
+    border-radius: 50%;
+    margin-left: 983px;
+    margin-top: -38px;
+    width: 40px;
+    height: 40px;
+}
+.mic
+{
+    margin-top: -33px;
+    float: left;
+    width: 30px;
+    margin-left: 983px;
+}
+.cam
+{
+    margin-top: -31px;
+    float: left;
+    margin-left: 1251px;
+    width: 29px;
+}
+.wedget
+{
+    margin-top: -29px;
+    float: left;
+    margin-left: 1302px;
+    width: 23px;
+}
+.bell
+{
+    margin-top: -27px;
+    float: left;
+    margin-left: 1346px;
+    width: 22px;
+}
+.profile
+{
+    margin-top: -33px;
+    float: left;
+    margin-left: 1393px;
+    width: 33px;
+    border-radius: 50%;
+}
+.sidebar
+{
+    background-color: rgb(255, 255, 255);
+    width: 4.5rem;
+    height: 45rem;
+    position: fixed;
+}
+.menuicon
+{
+    margin-top: 12px;
+    margin-left: 15px;
+    width: 34px;
+}
+.home
+{
+    margin-top: 40px;
+    margin-left: 23px;
+    width: 24px;
+}
+.compass
+{
+    margin-top:40px ;
+    margin-left: 23px;
+    width: 25px;
+}
+.subscription
+{
+    margin-top: 40px;
+    margin-left: 23px;
+    width: 25px;
+}
+.library
+{
+    margin-top: 49px;
+    margin-left: 21px;
+    width: 25px;
+}
+.hometx
+{
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+.compasstx
+{
+    margin-left: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+.subscriptiontx
+{
+    margin-left: 5px;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.librarytx
+{
+    margin-left: 20px;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
